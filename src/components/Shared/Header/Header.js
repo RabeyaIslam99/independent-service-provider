@@ -13,7 +13,7 @@ const Header = () => {
     <Navbar.Brand href="#"><img
         src={logo1}
         width="95"
-        height="80"
+        height="50"
         className="d-inline-block align-top"
         alt="React Bootstrap logo"
       /></Navbar.Brand>
