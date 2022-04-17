@@ -15,8 +15,8 @@ const Banner = () => {
       alt="First slide"
     />
     <Carousel.Caption  className='text-dark'>
-      <h3>Wedding photography</h3>
-      <p>Choose us and make your special day more special!!!!</p>
+      <h3  className='fw-bold fs-2'>Wedding photography</h3>
+      <p className=' fs-5'>Choose us and make your special day more special!!!!</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={500}>
@@ -27,8 +27,8 @@ const Banner = () => {
       alt="Second slide"
     />
     <Carousel.Caption className='text-dark'>
-      <h3>Wild life photography</h3>
-      <p>If you like nature then you can enjoy it</p>
+      <h3  className='fw-bold fs-2'>Wild life photography</h3>
+      <p className='fs-5'>If you like nature then you can enjoy it</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -39,8 +39,8 @@ const Banner = () => {
       alt="Third slide"
     />
     <Carousel.Caption  className='text-dark'>
-      <h3>Birthday Photography</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3 className='fw-bold fs-2'>Birthday Photography</h3>
+      <p className='fs-5'>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

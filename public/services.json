@@ -1,0 +1,44 @@
+[
+    {
+      "id" : 1,
+      "title" :"Pre-wedding Photography",
+      "description":"",
+      "price":"25,000",
+      "img" : "fgggas"
+    },
+    {
+      "id" : 2,
+      "title" :"Post-wedding Photography",
+      "description":"",
+      "price":"20,000",
+      "img" : "fgggas"
+    },
+    {
+      "id" : 3,
+      "title" :"Birthday Photography",
+      "description":"",
+      "price":"10,000",
+      "img" : "fgggas"
+    },
+    {
+      "id" : 4,
+      "title" :"Nature Photography",
+      "description":"",
+      "price":"10,000",
+      "img" : "fgggas"
+    },
+    {
+      "id" : 5,
+      "title" :"Animal Photography",
+      "description":"",
+      "price":"10,000",
+      "img" : "fgggas"
+    },
+    {
+      "id" : 6,
+      "title" :"Sports Photography",
+      "description":"",
+      "price":"10,000",
+      "img" : "fgggas"
+    }
+]

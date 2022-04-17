@@ -1,8 +1,8 @@
 
 import React from 'react';
-import { Container, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import Button from 'react-bootstrap/Button'
-import logo from '../../../images/logo.png'
+import { Container, Form,  Nav, Navbar } from 'react-bootstrap';
+
+import logo1 from '../../../images/logo1.png'
 const Header = () => {
     return (
         <div>
@@ -11,9 +11,9 @@ const Header = () => {
   <Container fluid>
 
     <Navbar.Brand href="#"><img
-        src={logo}
-        width="60"
-        height="40"
+        src={logo1}
+        width="95"
+        height="80"
         className="d-inline-block align-top"
         alt="React Bootstrap logo"
       /></Navbar.Brand>
@@ -24,14 +24,14 @@ const Header = () => {
         style={{ maxHeight: '100px' }}
         navbarScroll
       >
-        <Nav.Link href="#action1">Home</Nav.Link>
-        <Nav.Link href="#action2">Link</Nav.Link>
-        <Nav.Link href="#action2">Link</Nav.Link>
+        <Nav.Link href="#action1" className='fw-bold fs-5'>Home</Nav.Link>
+        <Nav.Link href="#action2" className='fw-bold fs-5'>Services</Nav.Link>
+        <Nav.Link href="#action2" className='fw-bold fs-5'>Experts</Nav.Link>
         
         
       </Nav>
       <Form className="d-flex">
-      <Nav.Link href="#action1" className='text-dark'>Login</Nav.Link>
+      <Nav.Link href="#action1" className='text-dark fw-bold'>Login</Nav.Link>
       </Form>
     </Navbar.Collapse>
   </Container>
