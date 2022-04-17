@@ -6,11 +6,12 @@ import Services from './components/Home/Services/Services';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './components/Login/Login';
 import Banner from './components/Home/Banner/Banner';
+import Header from './components/Shared/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      <h2>Here is header</h2>
+     <Header></Header>
       <Banner></Banner>
       <Routes>
     
