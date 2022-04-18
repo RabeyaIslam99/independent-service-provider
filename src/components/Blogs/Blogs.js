@@ -1,7 +1,10 @@
 import React from 'react';
+import Header from '../Shared/Header/Header';
 
 const Blogs = () => {
     return (
+        <div>
+            <Header></Header>
         <div style={{marginTop:'100px'}}>
             <h1>Difference between authorization and authentication</h1>
             <p>Authentication verifies who the user is.Authentication works through passwords, one-time pins, biometric information, and other information provided or entered by the user.
@@ -20,6 +23,7 @@ In some cases, there is no authorization; any user may be use a resource or acce
   <h1> What other services does firebase provide other than authentication</h1>
   <p>Most apps need to know the identity of a user. Knowing a user's identity allows an app to securely save user data in the cloud and provide the same personalized experience across all of the user's devices.
 Firebase Authentication provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to your app. It supports authentication using passwords, phone numbers, popular federated identity providers like Google, Facebook and Twitter, and more</p>
+        </div>
         </div>
     );
 };
