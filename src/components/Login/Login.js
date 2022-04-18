@@ -75,6 +75,11 @@ const Login = () => {
       </div>
           <p>
              New to ema john?  <Link className='form-link' to='/signup'>Create an account</Link>
+
+         </p>
+         <p>
+             Forget Password?  <Link className='form-link' to='/reset'>Reset Password</Link>
+             
          </p>
          </form>
 
