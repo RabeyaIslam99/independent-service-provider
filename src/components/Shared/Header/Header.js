@@ -1,9 +1,17 @@
 
+import { signOut } from 'firebase/auth';
 import React from 'react';
 import { Container, Form,  Nav, Navbar } from 'react-bootstrap';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import { Link } from 'react-router-dom';
+import auth from '../../../firebase.init';
 
 import logo1 from '../../../images/logo1.png'
 const Header = () => {
+  const [user] = useAuthState(auth);
+    const handleSignOut= () => {
+        signOut(auth);
+    }
     return (
         <div>
          <nav>
@@ -24,14 +32,15 @@ const Header = () => {
         style={{ maxHeight: '100px' }}
         navbarScroll
       >
-        <Nav.Link href="#action1" className='fw-bold fs-5'>Home</Nav.Link>
-        <Nav.Link href="#action2" className='fw-bold fs-5'>Services</Nav.Link>
-        <Nav.Link href="#action2" className='fw-bold fs-5'>Experts</Nav.Link>
+        <Link to="/" className='fw-bold fs-5'>Home</Link>
+        <Link to="/services" className='fw-bold fs-5'>Services</Link>
+        <Link to="/experts" className='fw-bold fs-5'>Experts </Link>
+        <Link to="/blogs" className='fw-bold fs-5'>Blogs</Link>
         
         
       </Nav>
       <Form className="d-flex">
-      <Nav.Link href="#action1" className='text-dark fw-bold'>Login</Nav.Link>
+      {user?.email?<Nav.Link onClick={handleSignOut} className='text-dark fw-bold'>Log Out</Nav.Link>:<Link to='/login' className='text-dark fw-bold'>Login</Link>}
       </Form>
     </Navbar.Collapse>
   </Container>
