@@ -36,7 +36,8 @@ const Header = () => {
       <Link to="/" style={{textDecoration:'none', color:'black' }} className='fw-bold fs-5 me-2'>Home</Link>
         <Link to="/services" style={{textDecoration:'none', color:'black' }} className='fw-bold fs-5 me-2'>Services</Link>
         <Link to="/experts" style={{textDecoration:'none', color:'black' }} className='fw-bold fs-5 me-2'>Experts </Link>
-        <Link to="/blogs" style={{textDecoration:'none', color:'black'}} className='fw-bold fs-5'>Blogs</Link>
+        <Link to="/blogs" style={{textDecoration:'none', color:'black'}} className='fw-bold fs-5 me-2' >Blogs</Link>
+        <Link to="/about" style={{textDecoration:'none', color:'black'}} className='fw-bold fs-5'>About Me</Link>
       </div>
         
         
