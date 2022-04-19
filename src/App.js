@@ -15,6 +15,7 @@ import NotFound from './components/NotFound/NotFound';
 import Reset from './components/Login/Reset/Reset';
 import Expert from './components/Home/Expert/Expert';
 import AboutMe from './components/AboutMe/AboutMe';
+import EmailVerifications from './components/Login/EmailVarifications/EmailVerifications';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
         <Route path='/reset' element={<Reset></Reset>}></Route>
+        <Route path='/emailv' element={<EmailVerifications></EmailVerifications>}></Route>
         <Route path='/experts' element={<Expert></Expert>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/about' element={<AboutMe></AboutMe>}></Route>

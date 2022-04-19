@@ -78,6 +78,10 @@ const Login = () => {
 
          </p>
          <p>
+             Log in with email  <Link className='form-link' to='/emailv'>Reset Password</Link>
+             
+         </p>
+         <p>
              Forget Password?  <Link className='form-link' to='/reset'>Reset Password</Link>
              
          </p>

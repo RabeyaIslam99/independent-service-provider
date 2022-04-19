@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Toast } from 'react-bootstrap';
 import {  sendPasswordResetEmail} from 'firebase/auth';
 import auth from '../../../firebase.init';
+import { Link } from 'react-router-dom';
 const Reset = () => {
 
     const [email, setEmail] = useState("");
@@ -34,6 +35,9 @@ const sendResetLinkHandler = (event) => {
             <input type="email" name="email" id="email" placeholder="Email address" value={email} onChange={onChangeHandler} />
 
 <button onClick={sendResetLinkHandler}> Confirm </button>
+<p>
+            All ready have an account ?  <Link className='form-link' to='/login'>Log In</Link>
+         </p>
         </div>
     );
 };
