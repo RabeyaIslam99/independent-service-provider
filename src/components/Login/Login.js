@@ -52,16 +52,16 @@ const Login = () => {
   
     return (
         
-        <div className='form-container '>
+        <div className='form-container mt-5 shadow-lg rounded p-3'>
          <form onSubmit={handleUserSignIn} action="">
          <div>
-          <h1 className='form-title'> Login page</h1>
+          <h1 className='form-title mt-3'> Login page</h1>
            <div className='input-group'>
-           <label htmlFor="email">Email</label>
+           <label htmlFor="email" className='m-3'>Email:</label>
             <input onBlur={handleEmailBlur}  type="email" name='email' required />
            </div>
            <div className="input-group">
-               <label htmlFor="password">Password</label>
+               <label htmlFor="password" className='m-3'>Password:</label>
                <input onBlur={handlePasswordBlur} type="password" name='password' required />
            </div>
            <p style={{color:'red'}}>{error}</p>
@@ -71,7 +71,7 @@ const Login = () => {
            <input className='form-submit' type="submit" value="Login" required />
           </div>
           <div className='mb-2'>
-      <button onClick={handleGoogleSignIn} className='px-5 fadeIn fourth' style={{backgroundColor:'#58baed' , border:"none"}}>Google</button>
+      <button onClick={handleGoogleSignIn} className='px-5 fadeIn fourth' style={{ marginTop:'50px',backgroundColor:'lightblue' , border:"none"}}>Google</button>
       </div>
           <p>
              New to ema john?  <Link className='form-link' to='/signup'>Create an account</Link>

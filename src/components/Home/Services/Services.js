@@ -14,7 +14,7 @@ const Services = () => {
             <div className='container mapGrid'>
             
             {
-                services.map(service=> <Service
+                services.slice(0,3).map(service=> <Service
                 key={service.id}
                 service={service}
                 ></Service>)

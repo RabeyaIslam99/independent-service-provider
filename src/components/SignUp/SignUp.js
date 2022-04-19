@@ -40,20 +40,20 @@ const SignUp = () => {
         createUserWithEmailAndPassword(email, password);
     }
     return (
-        <div className='form-container'>
+        <div className='form-container mt-5 shadow-lg rounded p-2'>
          <form onSubmit={handleCreateUser} action="">
          <div>
           <h1 className='form-title'>Sign up</h1>
            <div className='input-group'>
-           <label htmlFor="email">Email</label>
+           <label htmlFor="email" className='m-3'>Email</label>
             <input onBlur={handleEmailBlur} type="email" name='email' required />
            </div>
            <div className="input-group">
-               <label htmlFor="password">Password</label>
+               <label htmlFor="password" className='m-3'>Password</label>
                <input onBlur={handlePasswordBlur} type="password" name='password' required/>
            </div>
            <div className="input-group">
-               <label htmlFor="confirm-password"> Confirm Password</label>
+               <label htmlFor="confirm-password" className='me-2'> Confirm Password</label>
                <input onBlur={handlleConfirmPasswordBlur}   type="password" name='password' required />
            </div>
            <p>{error}</p>

@@ -4,7 +4,7 @@ import './Service.css'
 
 const Service = ({service}) => {
   
-    const{id ,image ,name ,description, title } = service
+    const{id ,image ,name ,description, title,price } = service
     const url = `/appointed/${id}`
     
     return (
@@ -17,6 +17,7 @@ const Service = ({service}) => {
                     { <div className="card-subtitle">
                         <p> <small className="text-muted">{description}</small> </p>
                     </div> }
+                    <p>Price:{price}</p>
                     { <Link to={url}><Button style={{backgroundColor:'#8dd1fe' , color:'dark' , border:'none'}}>Book Now</Button></Link> }
                 </div>
             </div>
