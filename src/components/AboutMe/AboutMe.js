@@ -10,7 +10,7 @@ const AboutMe = () => {
           <div>
             <div class = "shadow">
               <div class = "about-img">
-                <img src = "https://lh3.googleusercontent.com/a-/AOh14GhQWuCDgGdelLPDqGzY0-SGda1gKWaBPS3HhMtxyQ=s288-p-rw-no" alt = "about image" />
+                <img src = "https://i.ibb.co/tH70cnV/unnamed.webp" alt = "about image" />
               </div>
             </div>
 
@@ -30,15 +30,14 @@ const AboutMe = () => {
 
       <div class = "about-right">
         <h1>Hello<span>!</span></h1>
-        <h2>I m Rabeya Islam And I m a frontend developer</h2>
+        <h2>I am Rabeya Islam And I m a frontend developer</h2>
         <div class = "about-btns">
           <Link to="/" type = "button" class = "btn btn-pink">Go to Home</Link>
           
         </div>
 
         <div class = "about-para">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, aspernatur possimus ullam quaerat, laboriosam ex voluptate aliquid laborum, obcaecati ratione accusamus! Ea nisi modi dolor nam numquam? Temporibus, molestias amet.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus iure tempora alias laudantium sapiente impedit!</p>
+         <p>I am Rabeya Islam . I am a student of programing hero .I am learnig the web developing from this course.</p>
         </div>
       </div>
     </div>

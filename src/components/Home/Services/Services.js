@@ -9,7 +9,10 @@ const Services = () => {
     const [services] = useServices([])
   
     return (
+        <>
+        
        <div className='mt-5'>
+           
            <h1 className='mb-5'>Our Services</h1>
             <div className='container mapGrid'>
             
@@ -21,6 +24,7 @@ const Services = () => {
             }
         </div>
        </div>
+       </>
     );
 };
 

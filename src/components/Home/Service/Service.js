@@ -13,7 +13,7 @@ const Service = ({service}) => {
             <div className="cards">
             <div className="card-content">
                  <div className="card-body"> <img style={{height:'100'}}  className="img img-fluid" src={image} alt=''/> 
-                    <div className="shadow"></div>
+                   
                     <div className="card-title">{title}</div>
                     { <div className="card-subtitle">
                         <p> <small className="text-muted">{description}</small> </p>

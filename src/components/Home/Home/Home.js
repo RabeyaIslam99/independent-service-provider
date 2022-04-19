@@ -10,6 +10,7 @@ const Home = () => {
              <Header></Header>
              <Banner></Banner>
             <Services></Services>
+            <div style={{marginTop:'100px' , marginBottom:'50px'}}><h1>Our Best Photographer</h1></div>
             <Expert></Expert>
             <Footer></Footer>
         </div>
