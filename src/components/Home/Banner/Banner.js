@@ -40,7 +40,7 @@ const Banner = () => {
     />
     <Carousel.Caption  className='text-dark'>
       <h3 className='fw-bold fs-2'>Birthday Photography</h3>
-      <p className='fs-5'>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <p className='fs-5'>Make your day more special choosing us</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
