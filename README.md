@@ -1,6 +1,6 @@
 # Creative Photographer
 
-This project is deployed in netlify[Create React App](https://github.com/facebook/create-react-app).
+This project is deployed in netlify[Creative Photographer](https://creative-photographer.netlify.app).
 
 ## Functionalities
 
